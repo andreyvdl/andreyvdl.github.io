@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrey's projects</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/customElements.js" defer></script>
+    <script src="../js/languageFilter.js"></script>
+</head>
+
+<body>
+    <nav-bar-port></nav-bar-port><br>
+
+    <label for="languages">Filter to:</label>
+    <select name="languages" id="languages" onchange="filterProjects()">
+        <option value="undef"></option>
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Java">Java</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</option>
+    </select>
+    <button onclick="clearFilter()">Clear filter</button><br>
+
+    <project-node language="C" title="C--" description="A library that implements some features in C"
+        link="https://gitlab.com/andreyvdl/c"></project-node>
+
+    <project-node language="Ruby" title="Computor v1"
+        description="A project about making a program to solve quadratic equation"
+        link="https://gitlab.com/adantas2/computorv1"></project-node>
+
+    <project-node language="Java" title="Ajav-Launcher"
+        description="A project about making a simulation based on a UML file"
+        link="https://gitlab.com/adantas2/ajav-launcher"></project-node>
+
+    <project-node language="C++" title="42Matrix" description="A project about making vectorial and matrice functions"
+        link="https://gitlab.com/adantas2/42matrix"></project-node>
+
+    <project-node language="C++" title="AbstractVM"
+        description="A project about making a pseudo assembly virtual machine"
+        link="https://gitlab.com/adantas2/42AbstractVM"></project-node>
+
+    <project-node language="JavaScript,Python" title="Transcendence" description="A project about making a SPA web app"
+        link="https://github.com/andreyvdl/42-Transcendence"></project-node>
+
+    <project-node language="C++" title="WebServ" description="A project about creating a web server"
+        link="https://github.com/andreyvdl/42-webserv"></project-node>
+
+    <project-node language="C" title="Cub3D" description="A project about rendering a world with raycasting"
+        link="https://github.com/andreyvdl/42-Cub3D"></project-node>
+
+    <project-node language="C" title="Fract-ol" description="A project about rendering fractals"
+        link="https://github.com/andreyvdl/42-fract-ol"></project-node>
+
+    <project-node language="C" title="Philosophers"
+        description="A project about solving the philosophers dinner problem"
+        link="https://github.com/andreyvdl/42-philosophers"></project-node>
+
+    <project-node language="C" title="MiniShell" description="A project about simulating shell terminal"
+        link="https://github.com/andreyvdl/Minishell"></project-node>
+
+    <project-node language="C" title="Push Swap" description="A project about sorting a stack with lowest moves"
+        link="https://github.com/andreyvdl/42-push_swap"></project-node>
+
+    <project-node language="C" title="So Long" description="A project about making a simple 2D game"
+        link="https://github.com/andreyvdl/42-so_long"></project-node>
+</body>
+
+</html>
