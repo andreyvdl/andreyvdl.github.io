@@ -1,97 +1,87 @@
-import type { Data } from '@/lib/types';
+import type { Data } from "@/lib/types";
 
 const projects = {
   en: [
     {
-      title: 'projects[\'en\'].title',
-      description: 'projects[\'en\'].description',
-      stack: ['projects[\'en\'].stack', 'projects[\'en\'].stack', 'projects[\'en\'].stack'],
-      link: 'https://github.com/orgs/QuantumOrbit-Soft/repositories',
-      image: 'https://placehold.co/600x400/AAAAAA/EEEEEE?text=Project',
+      title: "42-Cub3D",
+      description:
+        "A 3D maze game built with raycasting and MiniLibX — explore a textured labyrinth from a first-person perspective.",
+      stack: ["C", "MiniLibX", "Makefile"],
+      link: "https://github.com/andreyvdl/42-Cub3D",
+      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=42-Cub3D",
     },
     {
-      title: 'projects[\'en\'].title',
-      description: 'projects[\'en\'].description',
-      stack: ['projects[\'en\'].stack', 'projects[\'en\'].stack', 'projects[\'en\'].stack'],
-      link: 'https://github.com/orgs/QuantumOrbit-Soft/repositories',
-      image: 'https://placehold.co/600x400/AAAAAA/EEEEEE?text=Project',
-    },
-    {
-      title: 'projects[\'en\'].title',
-      description: 'projects[\'en\'].description',
-      stack: ['projects[\'en\'].stack', 'projects[\'en\'].stack', 'projects[\'en\'].stack'],
-      link: 'https://github.com/orgs/QuantumOrbit-Soft/repositories',
-      image: 'https://placehold.co/600x400/AAAAAA/EEEEEE?text=Project',
+      title: "fractol-zig",
+      description:
+        "A Zig remake of the Fractol project — renders Mandelbrot and Julia sets with interactive controls.",
+      stack: ["Zig"],
+      link: "https://gitlab.com/adantas2/fractol-zig",
+      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=fractol-zig",
     },
   ],
-  'pt-BR': [
+  "pt-BR": [
     {
-      title: 'projects[\'pt-BR\'].title',
-      description: 'projects[\'pt-BR\'].description',
-      stack: ['projects[\'pt-BR\'].stack', 'projects[\'pt-BR\'].stack', 'projects[\'pt-BR\'].stack'],
-      link: 'https://github.com/orgs/QuantumOrbit-Soft/repositories',
-      image: 'https://placehold.co/600x400/AAAAAA/EEEEEE?text=Projeto',
+      title: "42-Cub3D",
+      description:
+        "Um jogo 3D de labirinto feito com raycasting e MiniLibX — explore um labirinto texturizado em primeira pessoa.",
+      stack: ["C", "MiniLibX", "Makefile"],
+      link: "https://github.com/andreyvdl/42-Cub3D",
+      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=42-Cub3D",
     },
     {
-      title: 'projects[\'pt-BR\'].title',
-      description: 'projects[\'pt-BR\'].description',
-      stack: ['projects[\'pt-BR\'].stack', 'projects[\'pt-BR\'].stack', 'projects[\'pt-BR\'].stack'],
-      link: 'https://github.com/orgs/QuantumOrbit-Soft/repositories',
-      image: 'https://placehold.co/600x400/AAAAAA/EEEEEE?text=Projeto',
-    },
-    {
-      title: 'projects[\'pt-BR\'].title',
-      description: 'projects[\'pt-BR\'].description',
-      stack: ['projects[\'pt-BR\'].stack', 'projects[\'pt-BR\'].stack', 'projects[\'pt-BR\'].stack'],
-      link: 'https://github.com/orgs/QuantumOrbit-Soft/repositories',
-      image: 'https://placehold.co/600x400/AAAAAA/EEEEEE?text=Projeto',
+      title: "fractol-zig",
+      description:
+        "Um remake do Fractol feito em Zig — renderiza conjuntos Mandelbrot e Julia com controles interativos.",
+      stack: ["Zig"],
+      link: "https://gitlab.com/adantas2/fractol-zig",
+      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=fractol-zig",
     },
   ],
 };
 
 export const configData: Data = {
-  'en': {
-    fullName: 'config[\'en\'].fullName',
-    nickname: 'config[\'en\'].nickname',
-    title: 'config[\'en\'].title',
-    role: 'config[\'en\'].role',
-    bio: 'config[\'en\'].bio',
-    avatarFallback: 'config[\'en\'].avatarFallback',
+  en: {
+    fullName: "Andrey Victor Dantas Leal",
+    nickname: "andreyvdl",
+    title: "Software Engineer",
+    role: "Software Engineer & 42 São Paulo Alumnus",
+    bio: "Low-level enthusiast and alumnus at 42 São Paulo. Passionate about C, C++ and systems programming.",
+    avatarFallback: "A",
 
-    companies: ['config[\'en\'].companies[1]', 'config[\'en\'].companies[2]'],
-    companiesLinks: ['config[\'en\'].companiesLinks[1]', 'config[\'en\'].companiesLinks[2]'],
+    companies: [],
+    companiesLinks: [],
 
-    primaryStack: ['config[\'en\'].primaryStack[1]', 'config[\'en\'].primaryStack[2]'],
-    secondaryStack: ['config[\'en\'].secondaryStack[1]', 'config[\'en\'].secondaryStack[2]'],
+    primaryStack: ["C", "C++"],
+    secondaryStack: ["Python", "JavaScript"],
 
-    avatarImage: 'https://avatars.githubusercontent.com/u/278219750www',
+    avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
     wallpapers: {
-      light: 'https://placehold.co/1200x600/EEEEEE/CCCCCC?text=Wallpaper',
-      dark: 'https://placehold.co/1200x600/333333/444444?text=Wallpaper',
+      light: "https://placehold.co/1200x600/EEEEEE/CCCCCC?text=Wallpaper",
+      dark: "https://placehold.co/1200x600/333333/444444?text=Wallpaper",
     },
 
-    projects: projects['en'],
+    projects: projects["en"],
   },
-  'pt-BR': {
-    fullName: 'config[\'pt-BR\'].fullName',
-    nickname: 'config[\'pt-BR\'].nickname',
-    title: 'config[\'pt-BR\'].title',
-    role: 'config[\'pt-BR\'].role',
-    bio: 'config[\'pt-BR\'].bio',
-    avatarFallback: 'config[\'pt-BR\'].avatarFallback',
+  "pt-BR": {
+    fullName: "Andrey Victor Dantas Leal",
+    nickname: "andreyvdl",
+    title: "Engenheiro de Software",
+    role: "Engenheiro de Software & Alumno da 42 São Paulo",
+    bio: "Entusiasta de low-level e alumno da 42 São Paulo. Apaixonado por C, C++ e programação de sistemas.",
+    avatarFallback: "A",
 
-    companies: ['config[\'pt-BR\'].companies[1]', 'config[\'pt-BR\'].companies[2]'],
-    companiesLinks: ['config[\'pt-BR\'].companiesLinks[1]', 'config[\'pt-BR\'].companiesLinks[2]'],
+    companies: [],
+    companiesLinks: [],
 
-    primaryStack: ['config[\'pt-BR\'].primaryStack[1]', 'config[\'pt-BR\'].primaryStack[2]'],
-    secondaryStack: ['config[\'pt-BR\'].secondaryStack[1]', 'config[\'pt-BR\'].secondaryStack[2]'],
+    primaryStack: ["C", "C++"],
+    secondaryStack: ["Python", "JavaScript"],
 
-    avatarImage: 'https://avatars.githubusercontent.com/u/278219750www',
+    avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
     wallpapers: {
-      light: 'https://placehold.co/1200x600/EEEEEE/CCCCCC?text=Wallpaper',
-      dark: 'https://placehold.co/1200x600/333333/444444?text=Wallpaper',
+      light: "https://placehold.co/1200x600/EEEEEE/CCCCCC?text=Wallpaper",
+      dark: "https://placehold.co/1200x600/333333/444444?text=Wallpaper",
     },
 
-    projects: projects['pt-BR'],
+    projects: projects["pt-BR"],
   },
 };
