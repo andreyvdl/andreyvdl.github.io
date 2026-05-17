@@ -56,8 +56,8 @@ export const configData: Data = {
 
     avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
     wallpapers: {
-      light: "https://placehold.co/1200x600/EEEEEE/CCCCCC?text=Wallpaper",
-      dark: "https://placehold.co/1200x600/333333/444444?text=Wallpaper",
+      light: "https://images.alphacoders.com/557/thumb-1920-557156.png",
+      dark: "https://images6.alphacoders.com/557/thumb-1920-557090.png",
     },
 
     projects: projects["en"],
@@ -78,8 +78,8 @@ export const configData: Data = {
 
     avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
     wallpapers: {
-      light: "https://placehold.co/1200x600/EEEEEE/CCCCCC?text=Wallpaper",
-      dark: "https://placehold.co/1200x600/333333/444444?text=Wallpaper",
+      light: "https://images.alphacoders.com/557/thumb-1920-557156.png",
+      dark: "https://images6.alphacoders.com/557/thumb-1920-557090.png",
     },
 
     projects: projects["pt-BR"],
