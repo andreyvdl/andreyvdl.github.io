@@ -8,7 +8,7 @@ const projects = {
         "A 3D maze game built with raycasting and MiniLibX — explore a textured labyrinth from a first-person perspective.",
       stack: ["C", "MiniLibX", "Makefile"],
       link: "https://github.com/andreyvdl/42-Cub3D",
-      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=42-Cub3D",
+      image: "/img/cub3d.jpeg",
     },
     {
       title: "fractol-zig",
@@ -16,7 +16,7 @@ const projects = {
         "A Zig remake of the Fractol project — renders Mandelbrot and Julia sets with interactive controls.",
       stack: ["Zig"],
       link: "https://gitlab.com/adantas2/fractol-zig",
-      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=fractol-zig",
+      image: "/img/fractol.jpeg",
     },
   ],
   "pt-BR": [
@@ -26,7 +26,7 @@ const projects = {
         "Um jogo 3D de labirinto feito com raycasting e MiniLibX — explore um labirinto texturizado em primeira pessoa.",
       stack: ["C", "MiniLibX", "Makefile"],
       link: "https://github.com/andreyvdl/42-Cub3D",
-      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=42-Cub3D",
+      image: "/img/cub3d.jpeg",
     },
     {
       title: "fractol-zig",
@@ -34,7 +34,7 @@ const projects = {
         "Um remake do Fractol feito em Zig — renderiza conjuntos Mandelbrot e Julia com controles interativos.",
       stack: ["Zig"],
       link: "https://gitlab.com/adantas2/fractol-zig",
-      image: "https://placehold.co/600x400/AAAAAA/EEEEEE?text=fractol-zig",
+      image: "/img/fractol.jpeg",
     },
   ],
 };
@@ -51,7 +51,7 @@ export const configData: Data = {
     companies: [],
     companiesLinks: [],
 
-    primaryStack: ["C", "C++"],
+    primaryStack: ["C/C++"],
     secondaryStack: ["Python", "JavaScript"],
 
     avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
@@ -73,7 +73,7 @@ export const configData: Data = {
     companies: [],
     companiesLinks: [],
 
-    primaryStack: ["C", "C++"],
+    primaryStack: ["C/C++"],
     secondaryStack: ["Python", "JavaScript"],
 
     avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
