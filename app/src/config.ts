@@ -14,7 +14,7 @@ const projects = {
       title: "fractol-zig",
       description:
         "A Zig remake of the Fractol project — renders Mandelbrot and Julia sets with interactive controls.",
-      stack: ["Zig"],
+      stack: ["Zig", "MLX42"],
       link: "https://gitlab.com/adantas2/fractol-zig",
       image: "/img/fractol.png",
     },
@@ -40,7 +40,7 @@ const projects = {
       title: "fractol-zig",
       description:
         "Um remake do Fractol feito em Zig — renderiza conjuntos Mandelbrot e Julia com controles interativos.",
-      stack: ["Zig"],
+      stack: ["Zig", "MLX42"],
       link: "https://gitlab.com/adantas2/fractol-zig",
       image: "/img/fractol.png",
     },
