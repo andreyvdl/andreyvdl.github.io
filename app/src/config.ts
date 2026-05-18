@@ -56,8 +56,8 @@ export const configData: Data = {
 
     avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
     wallpapers: {
-      light: "https://images.alphacoders.com/557/thumb-1920-557156.png",
-      dark: "https://images6.alphacoders.com/557/thumb-1920-557090.png",
+      dark: "https://images8.alphacoders.com/632/thumb-1920-632051.png",
+      light: "https://picfiles.alphacoders.com/248/thumb-1920-248365.jpg",
     },
 
     projects: projects["en"],
@@ -78,8 +78,8 @@ export const configData: Data = {
 
     avatarImage: "https://avatars.githubusercontent.com/u/81233149?v=4",
     wallpapers: {
-      light: "https://images.alphacoders.com/557/thumb-1920-557156.png",
-      dark: "https://images6.alphacoders.com/557/thumb-1920-557090.png",
+      dark: "https://images8.alphacoders.com/632/thumb-1920-632051.png",
+      light: "https://picfiles.alphacoders.com/248/thumb-1920-248365.jpg",
     },
 
     projects: projects["pt-BR"],
